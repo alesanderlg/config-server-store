@@ -1,0 +1,3 @@
+delivery:
+  maxOrders: 20
+  minOrders: 20
