@@ -5,7 +5,7 @@ eureka:
   instance:
     hostname: localhost #the hostname where will be started the eureka server
   client:
-    registerWithEureka: true # This property is used to enable the service register
+    registerWithEureka: false # This property is used to enable the service register
     fetchRegistry: false # as this is the eureka server, this option must be disabled
     serviceUrl: # the location of eureka server where this app will self-register
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
