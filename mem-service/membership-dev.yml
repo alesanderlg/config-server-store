@@ -1,3 +1,2 @@
-delivery:
-  maxOrders: 30
-  minOrders: 30
+server:
+  port: 1590

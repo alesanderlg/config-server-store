@@ -1,3 +1,2 @@
-delivery:
-  maxOrders: 10
-  minOrders: 10
+server:
+  port: 1592
